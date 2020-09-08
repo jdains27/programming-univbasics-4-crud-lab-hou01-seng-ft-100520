@@ -8,11 +8,8 @@ def
   ["Jordan", "Angela", "Jacob", "Ellie"]
 end
 
-def 
-  add_element_to_end_of_array(array, element) 
-  ["Jordan", "Angela", "Jacob", "Ellie"]
-  element = "Dallen"
-  add_element_to_end_of_array(array, element).push("Ellie")
+def add_element_to_end_of_array(array, element)
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
